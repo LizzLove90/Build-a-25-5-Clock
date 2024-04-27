@@ -1,0 +1,59 @@
+.pomodoro-clock {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .settings {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .break-settings,
+  .session-settings {
+    width: 45%;
+  }
+  
+  .break-settings button,
+  .session-settings button {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  #break-length,
+  #session-length {
+    font-size: 1.5rem;
+  }
+  
+  #timer {
+    margin-top: 20px;
+  }
+  
+  #timer-label {
+    font-size: 1.5rem;
+  }
+  
+  #time-left {
+    font-size: 2.5rem;
+  }
+  
+  #start_stop,
+  #reset {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  #start_stop:hover,
+  #reset:hover {
+    background-color: #0056b3;
+  }
+  
